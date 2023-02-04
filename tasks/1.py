@@ -1,18 +1,9 @@
-# if __name__ == '__main__':
-#     list_of_cities = str(input('Введите список городов: '))
-#     list = str(list_of_cities.split(' '))
-#     print(list)
-#     string = ''.join(list)
-#     print(string)
-
-
-# def function_list_into_string_of_cities(cities):
-#     return cities
-
-
-# if __name__ == '__main__':
-#     cities = list(map(str, input('list_of_cities: ').split(' ')))
-#     print(function_list_into_string_of_cities(cities))
+"""
+Первое задание. Написать метод/функцию, который/которая на вход принимает массив городов. 
+В качестве результата возвращает строку, где города разделены запятыми, а в конце стоит точка. 
+Пример:
+«Москва, Санкт-Петербург, Воронеж.»
+"""
 
 
 cities = list(map(str, input('Введите список городов: ').split(' ')))
