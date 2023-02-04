@@ -6,8 +6,6 @@
 
 
 number = int(input('Введите число: '))
-for el in range(1, number + 1):
-    print(el)
 for i in range(1, number + 1):
     for j in range(1, number + 1):
         print("%3d" % (i * j), end="")
