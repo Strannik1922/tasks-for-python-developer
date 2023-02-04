@@ -10,6 +10,6 @@ def function_to_five(value, base):
 
 
 if __name__ == '__main__':
-    value = float(input('Введите рациональное число: '))
+    value = int(input('Введите число: '))
     base = 5
     print(function_to_five(value, base))
